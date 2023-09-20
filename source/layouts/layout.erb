@@ -1,6 +1,27 @@
 <!doctype html>
 <html>
   <head>
+  <title><%= current_page.data.title || "Dennis John Brown Jr. | Portfolio" %></title>
+<meta name="description" content="A portfolio of works by Dennis John Brown Jr.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&family=Oswald:wght@200&family=Raleway:wght@100&family=Ysabeau+SC:wght@200;600&display=swap" rel="stylesheet"><meta property="og:title" content="Dennis John Brown Jr. | Portfolio" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="THE_URL_OF_MY_PORTFOLIO" />
+<meta property="og:image" content="<%= image_path 'MY_OG_IMAGE_WITH_RIGHT_SIZE.png' %>" />
+<meta property="og:description" content="A portfolio of works by Dennis John Brown Jr." />
+<meta property="og:site_name" content="Dennis John Brown Jr. | Portfolio" />
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@twitter_handle">
+<meta name="twitter:title" content="Dennis John Brown Jr. | Portfolio">
+<meta name="twitter:description" content="A portfolio of works by Dennis John Brown Jr.">
+<meta name="twitter:creator" content="@twitter_handle">
+<meta name="twitter:image:src" content="<%= image_path 'MY_OG_IMAGE_WITH_RIGHT_SIZE.png' %>">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
@@ -14,5 +35,6 @@
   <body>
     <%= yield %>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <%= partial 'partials/social' %>
   </body>
 </html>
