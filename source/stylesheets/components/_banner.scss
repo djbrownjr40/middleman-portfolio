@@ -1,17 +1,56 @@
 .banner {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title-main {
   font-family: 'Rubik Mono One', sans-serif;
   display: inline-block;
+  white-space: nowrap;
+  font-size: 7vw;
+}
+
+.first-name, .last-name, .portfolio {
+  line-height: 1;
 }
 
 .first-name {
-  letter-spacing: 0.04em;
-  margin-right: -0.1em; 
+  letter-spacing: 0.01em;
+  margin-right: -0.1em;
+  margin-bottom: 0;
 }
 
 .last-name {
-  letter-spacing: 0.12em;
+  letter-spacing: 0.19em;
+  margin-top: 0;
+}
+
+.portfolio {
+  color: #6B0F1A;
+  letter-spacing: .18em;
+}
+
+.portfolio, .developer {
+  font-family: 'Rubik Mono One', sans-serif;
+  display: inline-block;
+  font-size: 2vw;
+  margin: 0;
+}
+
+.titles-container {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.portfolio, .job-title {
+  margin: 0;
+}
+
+.developer {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 2vw;
+  opacity: 0.7;
 }

@@ -20,10 +20,11 @@
 div.sticky {
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 33%;
+  top: 28%;
   color: white;
   background-color: #C89933;
   border: 2px dotted #7B7554;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
