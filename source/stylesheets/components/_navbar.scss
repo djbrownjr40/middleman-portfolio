@@ -52,3 +52,16 @@
 .section {
   padding-top: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-bar-list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px; /* Add some space between links in mobile view */
+  }
+
+  .nav-bar-list-item {
+    margin: 10px 0;
+  }
+}
