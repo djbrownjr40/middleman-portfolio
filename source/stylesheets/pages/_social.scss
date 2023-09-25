@@ -5,7 +5,18 @@
   margin: 10px 0;
 }
 
-// .contact {
-//   background-color: black;
-//   padding: 16px 120px 280px 16px;
-// }
+.contact-me {
+  font-family: 'Rubik Mono One', sans-serif;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 5vw;
+}
+
+.button-social i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  // font-size: 1.5em;
+}
