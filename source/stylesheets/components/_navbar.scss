@@ -1,90 +1,164 @@
-.nav-bar-wrapper {
-  margin-left: 0;
-  align-items: center;
-  // display: flex;
-  // justify-content: space-between;
-  grid-template-columns: repeat(3, auto);
-  justify-items: center;
-  width: 100%;
+
+.nav-bar {
   position: fixed;
+  width: 100%;
   top: 0;
   border-bottom: 1px solid black;
   z-index: 9999;
   background-color: #CCC7B9;
+  padding: 0px 0px;
 }
 
-.nav-bar {
-  left: auto;
-  right: calc(var(--grid-val)*4.5);
-  grid-column: span 3;
+.db-heading {
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+.nav-bar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  background-color: #CCC7B9;
 }
 
-.db-nav-bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.db-nav-bar-list-item {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.db-nav-bar-list-item-link {
-  text-decoration: none;
-  color: #000; /* Adjust the color as needed */
-}
 .nav-bar-list {
-  display: flex; /* Change to flexbox */
-  justify-content: center; /* Center the items horizontally */
-  list-style: none;
+  list-style-type: none;
   padding: 0;
-  margin-left: 300px;
-  margin-top: 5px;
+  display: flex;
 }
 
 .nav-bar-list-item {
-  margin: 0 40px;
+  margin-top: -10px;
+  align-items: center;
+  display: flex;
 }
 
-.nav-bar-list-item-number,
-.nav-bar-list-item-link {
-  display: block;
-  text-align: center;
+.nav-bar-list-item-link h1 {
+  margin: 0;
 }
+
+.col-md-6 {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
 
 .nav-bar-list-item-link {
   text-decoration: none;
   color: white;
-  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-bar-list-item-number {
   margin-right: 10px;
 }
 
+.db-nav-bar-list-item {
+  list-style-type: none;
+}
+
 .db-nav-bar-list-item-link {
-  display: inline-block;
-  margin-right: 10px; /* Adjust as needed for spacing between links */
+  text-decoration: none;
 }
 
 
-.nav-bar-list-item-number {
-  margin-bottom: 2px;
-  margin-top: 6px;
-  text-align: left;
-}
 
-.section {
-  padding-top: 100px;
-}
+// .nav-bar-wrapper {
+//   margin-left: 0;
+//   align-items: center;
+//   // display: flex;
+//   // justify-content: space-between;
+//   grid-template-columns: repeat(3, auto);
+//   justify-items: center;
+//   width: 100%;
+//   position: fixed;
+//   top: 0;
+//   border-bottom: 1px solid black;
+//   z-index: 9999;
+//   background-color: #CCC7B9;
+// }
 
-@media screen and (max-width: 768px) {
-  .nav-bar-list {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 10px; /* Add some space between links in mobile view */
-  }
+// .nav-bar {
+//   left: auto;
+//   right: calc(var(--grid-val)*4.5);
+//   grid-column: span 3;
+//   background-color: #CCC7B9;
+//   position: fixed;
+//   width: 100%;
+// }
 
-  .nav-bar-list-item {
-    margin: 10px 0;
-  }
-}
+// .db-nav-bar {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// .db-nav-bar-list-item {
+//   display: inline-block;
+//   margin-right: 10px;
+//   list-style-type: none;
+// }
+
+// .db-nav-bar-list-item-link {
+//   text-decoration: none;
+//   color: #000;
+// }
+// .nav-bar-list {
+//   display: flex;
+//   justify-content: center;
+//   list-style: none;
+//   padding: 0;
+//   margin-left: 300px;
+//   margin-top: 5px;
+// }
+
+// .nav-bar-list-item {
+//   margin: 0 40px;
+// }
+
+// .nav-bar-list-item-number,
+// .nav-bar-list-item-link {
+//   display: block;
+//   text-align: center;
+// }
+
+// .nav-bar-list-item-link {
+//   text-decoration: none;
+//   color: white;
+//   display: inline-block;
+//   margin-right: 10px;
+// }
+
+// .db-nav-bar-list-item-link {
+//   display: inline-block;
+//   margin-right: 10px;
+// }
+
+
+// .nav-bar-list-item-number {
+//   margin-bottom: 2px;
+//   margin-top: 6px;
+//   text-align: left;
+// }
+
+// .section {
+//   padding-top: 100px;
+// }
+
+// @media screen and (max-width: 768px) {
+//   .nav-bar-list {
+//     flex-direction: column;
+//     align-items: center;
+//     text-align: center;
+//     margin-top: 10px; /* Add some space between links in mobile view */
+//   }
+
+//   .nav-bar-list-item {
+//     margin: 10px 0;
+//   }
+// }
