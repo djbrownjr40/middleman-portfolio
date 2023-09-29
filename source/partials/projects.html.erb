@@ -2,12 +2,12 @@
 <div class="row my-5">
   <div class="col-12">
     <div class="container">
-        <h2 class="section noto-serif-bold">Projects</h2>
+        <h2 class="section overpass-bold pb-3">Projects</h2>
         <div class="cards">
           <% data.projects.each do |project| %>
             <div class="card-product">
               <div class="title">
-                <h2 class="noto-serif"><%= project.name %></h2>
+                <h2 class="overpass"><%= project.name %></h2>
                 <div class="links">
                   <% link_to project.url, class: 'external-link', target: '_blank' do %>
                     <i class="fa-solid fa-up-right-from-square" style="color: #12263A;"></i>
@@ -21,11 +21,11 @@
                 <%= image_tag project.image, alt: "project image" %>
               </div>
               <div class="about-section">
-                <h3 class="noto-serif">ABOUT</h3>
-                <p class="noto-serif"><%= project.description %></p>
+                <h3 class="overpass">ABOUT</h3>
+                <p class="overpass"><%= project.description %></p>
               </div>
               <div class="stack">
-                <h3 class="noto-serif">STACK</h3>
+                <h3 class="overpass">STACK</h3>
                 <!-- Add your stack information here -->
               </div>
             </div>
