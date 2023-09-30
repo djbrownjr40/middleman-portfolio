@@ -208,10 +208,10 @@
 
 // ui button - stack buttons
 
-
-/* CSS */
 .ui-button {
-  margin-bottom: 20px;
+  display: inline-block;
+  margin: 0;
+  display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
@@ -238,4 +238,14 @@
   .button-54 {
     padding: 0.25em 0.75em;
   }
+}
+
+// .stack {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-evenly;
+// }
+
+.stack-break {
+  margin-top: 10px;
 }

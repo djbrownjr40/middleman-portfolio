@@ -26,6 +26,7 @@
               </div>
               <div class="stack">
                 <h3 class="overpass mt-2 mb-3">STACK</h3>
+                <div class="stack-break"></div>
                 <% project.stack.split(',').zip(project.stack_urls.split(',')).each do |language, url| %>
                   <a href="<%= url.strip %>" target="_blank" class="ui-button" role="button"><%= language.strip %></a>
                 <% end %>
