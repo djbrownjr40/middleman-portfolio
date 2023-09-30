@@ -1,7 +1,7 @@
 <div id="projects" class="section">
-<div class="row my-5">
-  <div class="col-12">
-    <div class="container">
+  <div class="row my-5">
+    <div class="col-12">
+      <div class="container">
         <h2 class="section overpass-bold pb-3">Projects</h2>
         <div class="cards">
           <% data.projects.each do |project| %>
@@ -26,7 +26,9 @@
               </div>
               <div class="stack">
                 <h3 class="overpass mt-2 mb-3">STACK</h3>
-                <!-- Add your stack information here -->
+                <% project.stack.split(',').zip(project.stack_urls.split(',')).each do |language, url| %>
+                  <a href="<%= url.strip %>" target="_blank" class="ui-button" role="button"><%= language.strip %></a>
+                <% end %>
               </div>
             </div>
           <% end %>
