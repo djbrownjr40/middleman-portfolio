@@ -9,11 +9,16 @@
               <div class="title">
                 <h2 class="overpass"><%= project.name %></h2>
                 <div class="links">
-                  <%# <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                    <%# <i class="fa-solid fa-up-right-from-square" style="color: #12263A;"></i> %>
-                  <%# <% end %> 
-                  <% link_to project.gh, class: 'external-link', target: '_blank' do %>
-                    <i class="fa-brands fa-square-github fa-lg" style="color: #12263A;"></i>
+                  <% if project.gh.present? %>
+                    <%= link_to project.gh, class: 'external-link', target: '_blank' do %>
+                      <i class="fa-brands fa-square-github fa-lg" style="color: #12263A;"></i>
+                    <% end %>
+                  <% end %>
+
+                  <% if project.url.present? %>
+                    <%= link_to project.url, class: 'external-link', target: '_blank' do %>
+                      <i class="fa-solid fa-up-right-from-square" style="color: #12263A;"></i>
+                    <% end %>
                   <% end %>
                 </div>
               </div>
