@@ -23,3 +23,10 @@
   url: http://www.snowpatrol.pro/
   stack: JavaScript, postgreSQL, Ruby on Rails, SASSC, HTML5, ActiveStorage, Stimulus, Devise, Mapbox
   stack_urls: "https://developer.mozilla.org/en-US/docs/Web/JavaScript, https://www.postgresql.org/, https://rubyonrails.org/, https://sass-lang.com/, https://developer.mozilla.org/en-US/docs/Glossary/HTML5, https://guides.rubyonrails.org/active_storage_overview.html, https://stimulus.hotwired.dev/, https://github.com/heartcombo/devise#the-devise-wiki, https://www.mapbox.com/"
+
+- name: ai Journal
+  description: An ai-assisted journaling app to practice your Japanese. Daily writing prompt generation, ai-chat bot features, and a fully decked-out notepad.
+  image: projects/aijournal.png
+  url: http://157.7.86.182:8080/
+  stack: JavaScript, TypeScript, mySQL, Node/Express.js, Vue.js, ChatGPT API
+  stack_urls: "https://developer.mozilla.org/en-US/docs/Web/JavaScript, https://www.typescriptlang.org/, https://www.mysql.com/, https://expressjs.com/, https://vuejs.org/, https://platform.openai.com/docs/api-reference/introduction"
