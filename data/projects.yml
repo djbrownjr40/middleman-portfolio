@@ -1,32 +1,31 @@
-
-- name: MOVIE WATCHLIST
-  description: A website where you can view movie lists created by other users or make your own. <br><br> Created with Ruby on Rails.
-  image: projects/watchlist.png
-  gh: https://github.com/djbrownjr40/rails-watch-list
-  url: https://den-movie-watchlist-8458e315b299.herokuapp.com/lists
-  stack: postgreSQL, Ruby on Rails, SASSC, HTML5
-  stack_urls: "https://www.postgresql.org/, https://rubyonrails.org/, https://sass-lang.com/, https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
-
-- name: BUDDYUP
-  description: A website for finding friends through activities. Rent out your time or find a friend to join you. <br><br>Created with Ruby on Rails.
-  image: projects/BuddyUp.png
-  gh: https://github.com/djbrownjr40/Buddy_Up
-  url: https://buddyup-djbrownjr40-85decda596ee.herokuapp.com/
-  stack: postgreSQL, Ruby on Rails, SASSC, HTML5, ActiveStorage, Stimulus
-  stack_urls: "https://www.postgresql.org/, https://rubyonrails.org/, https://sass-lang.com/, https://developer.mozilla.org/en-US/docs/Glossary/HTML5, https://guides.rubyonrails.org/active_storage_overview.html, https://stimulus.hotwired.dev/"
-
+- name: ai Journal
+  description: An ai-assisted journaling app to practice your Japanese. Daily writing prompt generation, ai-chat bot features, and a fully decked-out notepad.
+  image: projects/aijournal.png
+  gh: https://github.com/djbrownjr40/aijournal
+  url: http://157.7.86.182:8080/
+  stack: JavaScript, TypeScript, mySQL, Node/Express.js, Vue.js, ChatGPT API
+  stack_urls: "https://developer.mozilla.org/en-US/docs/Web/JavaScript, https://www.typescriptlang.org/, https://www.mysql.com/, https://expressjs.com/, https://vuejs.org/, https://platform.openai.com/docs/api-reference/introduction"
 
 - name: SNOW PATROL
   description: An app for finding ski resorts with powder snow in Japan. Current snow reports and reviews of ski resorts are user-generated. <br><br> Created with Ruby on Rails and JavaScript for mobile. Map provided by <i>Mapbox</i>.
   image: projects/snowpatrol.png
   gh: https://github.com/djbrownjr40/Snow_Patrol
-  url: http://www.snowpatrol.pro/
+  url: http://157.7.86.182:3001
   stack: JavaScript, postgreSQL, Ruby on Rails, SASSC, HTML5, ActiveStorage, Stimulus, Devise, Mapbox
   stack_urls: "https://developer.mozilla.org/en-US/docs/Web/JavaScript, https://www.postgresql.org/, https://rubyonrails.org/, https://sass-lang.com/, https://developer.mozilla.org/en-US/docs/Glossary/HTML5, https://guides.rubyonrails.org/active_storage_overview.html, https://stimulus.hotwired.dev/, https://github.com/heartcombo/devise#the-devise-wiki, https://www.mapbox.com/"
 
-- name: ai Journal
-  description: An ai-assisted journaling app to practice your Japanese. Daily writing prompt generation, ai-chat bot features, and a fully decked-out notepad.
-  image: projects/aijournal.png
-  url: http://157.7.86.182:8080/
-  stack: JavaScript, TypeScript, mySQL, Node/Express.js, Vue.js, ChatGPT API
-  stack_urls: "https://developer.mozilla.org/en-US/docs/Web/JavaScript, https://www.typescriptlang.org/, https://www.mysql.com/, https://expressjs.com/, https://vuejs.org/, https://platform.openai.com/docs/api-reference/introduction"
+- name: BUDDYUP
+  description: A website for finding friends through activities. Rent out your time or find a friend to join you. <br><br>Created with Ruby on Rails.
+  image: projects/BuddyUp.png
+  gh: https://github.com/djbrownjr40/Buddy_Up
+  url: http://157.7.86.182:3002
+  stack: postgreSQL, Ruby on Rails, SASSC, HTML5, ActiveStorage, Stimulus
+  stack_urls: "https://www.postgresql.org/, https://rubyonrails.org/, https://sass-lang.com/, https://developer.mozilla.org/en-US/docs/Glossary/HTML5, https://guides.rubyonrails.org/active_storage_overview.html, https://stimulus.hotwired.dev/"
+
+- name: MOVIE WATCHLIST
+  description: A website where you can view movie lists created by other users or make your own. <br><br> Created with Ruby on Rails.
+  image: projects/watchlist.png
+  gh: https://github.com/djbrownjr40/rails-watch-list
+  url: http://157.7.86.182:3003
+  stack: postgreSQL, Ruby on Rails, SASSC, HTML5
+  stack_urls: "https://www.postgresql.org/, https://rubyonrails.org/, https://sass-lang.com/, https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
